@@ -1,0 +1,556 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+   
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 3px solid rgb(63, 199, 63);
+    padding: 10px 20px;
+    font-family: initial;
+    
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    width: 10vh;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 3vh;
+}
+
+.nav-links a:hover {
+    background-color:rgb(63, 199, 63);
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+#pic1{
+    position: relative;
+    left: 137vh;
+    width: 80vh;
+    top: 4vh;
+}
+h4{
+    font-size: 5vh;
+    font-weight: normal;
+    position: relative;
+    bottom: 65vh;
+    left: 15vh;
+
+}
+h3{
+    color: rgb(63, 199, 63);
+    position: relative;
+    bottom: 89vh;
+    left: 14vh;
+    font-size: 20vh;
+}
+h2{
+    position: relative;
+    bottom: 129vh;
+    left: 77vh;
+    font-size: 7vh;
+}
+h1{
+    font-size: 7vh;
+    position: relative;
+    bottom: 134vh;
+    left: 77vh;
+    color:rgb(63, 199, 63) ;
+}
+h5{
+    position: relative;
+    bottom: 142vh;
+    left: 14vh;
+    font-size: 6vh;
+    font-weight: normal;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto; /* Center the card */
+    position: relative;
+    bottom: 150vh;
+    right: 49vh;
+    background: #6CC24E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 4vh;
+    font-style: normal;
+}
+
+.card li .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+#pic2{    
+    transform: rotate(178.06deg);
+    position: relative;
+    bottom: 160vh;
+    width: 25ch;
+    left: 105vh;
+}
+.cards-container {
+    display:inline-flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.custom-card {
+    width: 296px;
+    height: 343px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 30px;
+    position: relative;
+    bottom: 170vh;
+    left: 10vh;
+
+}
+
+.custom-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 5px solid rgb(63, 199, 63);
+    border-radius: 91px;
+    width: 15vh;
+}
+
+.custom-card p {
+    font-size: 30px;
+    /* line-height: 1.5; */
+    font-weight: bold;
+}
+#pic3{
+    position: relative;
+    bottom: 210vh;
+    left: 165vh;
+
+}
+.small-box {
+    width: 346.44px;
+    height: 71.76px;
+    transform: rotate(14.29deg);
+    transform-origin: 0 0;
+    background: #84D160;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 230vh;
+    left: 90vh;
+}
+.content-box {
+    width: 319px;
+    height: 85px;
+    background: #FCFBF7;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 235vh;
+    left: 90vh;
+}
+.circle {
+    width: 619px;
+    height: 582px;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 9999px;/* A very large value to create a circle */
+    border: 3px solid #6CC24E;/* Border color and thickness */
+    position: relative;
+    bottom: 230vh;
+    left: 125vh;
+}
+#pic5{
+    position: relative;
+    bottom: 314vh;
+    left: 128vh;
+    /* width: 570px; */
+    border-radius: 290px;
+    width: 570px;
+    height: 582px;
+}
+#p1{
+    position: relative;
+    bottom: 360vh;
+}
+#p2{
+    position: relative;
+    bottom: 20vh;
+    left: 5vh;
+    font-size: 6vh;
+}
+    
+#p3,#p4,#p5,#p6{
+    position: relative;
+    bottom: 20vh;
+    left: 5vh;
+    font-size: 3vh;
+    font-weight: 500;
+}
+#pic6{
+    transform: rotate(178.06deg);
+    position: relative;
+    bottom: 470vh;
+    width: 25ch;
+    left: 45vh;
+}
+#join-chef-box {
+    width: 393px;
+    height: 63px;
+    color: black;
+    font-size: 32px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 400;
+    line-height: 68.48px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFBF7;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 385vh;
+    left: 80vh;
+    border-radius: 20vh;
+}
+.small-box-1{
+    width: 346.44px;
+    height: 71.76px;
+    transform: rotate(14.29deg);
+    transform-origin: 0 0;
+    background: #84D160;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 340vh;
+    left: 90vh;
+}
+.small-box-2{
+    width: 346.44px;
+    height: 71.76px;
+    transform: rotate(14.29deg);
+    transform-origin: 0 0;
+    background: #84D160;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 390vh;
+    left: 20vh;
+}
+.small-box-3{
+    width: 346.44px;
+    height: 71.76px;
+    transform: rotate(14.29deg);
+    transform-origin: 0 0;
+    background: #84D160;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 395vh;
+    left: 165vh;
+}
+.content-box-1{
+    width: 319px;
+    height: 85px;
+    background: #FCFBF7;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 405vh;
+    left: 20vh;
+}
+.content-box-2{
+    width: 319px;
+    height: 85px;
+    background: #FCFBF7;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 412vh;
+    left: 165vh;
+}
+.content-box-3{
+    width: 319px;
+    height: 85px;
+    background: #FCFBF7;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 390vh;
+    left: 90vh;
+}
+.circle-1{
+    width: 619px;
+    height: 582px;
+    background: rgba(217, 217, 217, 0);
+    border-radius: 9999px;/* A very large value to create a circle */
+    border: 3px solid #6CC24E;/* Border color and thickness */
+    position: relative;
+    bottom: 440vh;
+    left: 3vh;
+}
+#pic7{
+    position: relative;
+    bottom: 524vh;
+    left: 7vh;
+    /* width: 570px; */
+    border-radius: 290px;
+    width: 570px;
+    height: 580px;
+}
+#p8{
+    position: relative;
+    bottom: 600vh;
+    left: 92vh;
+    font-size: 6vh;
+
+}
+#p9,#p10,#p11,#p12{
+    position: relative;
+    bottom: 600vh;
+    left: 97vh;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+#order{
+    width: 393px;
+    height: 63px;
+    color: black;
+    font-size: 32px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 400;
+    line-height: 68.48px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCFBF7;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 570vh;
+    left: 95vh;
+    border-radius: 20vh;
+}
+#pic8{
+    transform: rotate(178.06deg);
+    position: relative;
+    bottom: 422vh;
+    width: 25ch;
+    left: 10vh;
+}
+#pic9{
+    transform: rotate(178.06deg);
+    position: relative;
+    bottom: 500vh;
+    width: 25ch;
+    left: 185vh;
+}
+#pic10{
+    position: relative;
+    bottom: 560vh;
+    left: 50vh;
+    width: 1076px;
+    height: 613px;
+}
+.small-box-4{
+    width: 346.44px;
+    height: 71.76px;
+    transform: rotate(14.29deg);
+    transform-origin: 0 0;
+    background: #84D160;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 555vh;
+    left: 20vh;
+}
+.small-box-5{
+    width: 346.44px;
+    height: 71.76px;
+    transform: rotate(14.29deg);
+    transform-origin: 0 0;
+    background: #84D160;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    position: relative;
+    bottom: 560vh;
+    left: 160vh;
+}
+.content-box-4{
+    width: 319px;
+    height: 85px;
+    background: #FCFBF7;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 570vh;
+    left: 20vh;
+}
+.content-box-5{
+    width: 319px;
+    height: 85px;
+    background: #FCFBF7;
+    border-radius: 15px;
+    border: 1px solid #84D160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 578vh;
+    left: 160vh;
+}
+#pic11{
+    transform:  rotate(-43.74deg);;
+    position: relative;
+    bottom: 583vh;
+    width: 25ch;
+    left: 95vh;
+}
+#p13{
+    position: relative;
+    bottom: 580vh;
+    left: 83vh;
+    font-size: 7vh;
+}
+.four-cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    position: relative;
+    bottom: 570vh;
+
+}
+
+.samll-card {
+    width: 121px;
+    height: 87px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.samll-card img {
+    max-width: 100%;
+    height: auto;
+}
+.card-logo{
+    width: 10vh;
+}
+#pic12{
+    position: relative;
+    bottom: 572vh;
+}
+#p14{
+    position: relative;
+    bottom: 620vh;
+    left: 76vh;
+    font-size: 7vh;
+
+}
+#p15{
+    position: relative;
+    bottom: 620vh;
+    left: 86vh;
+    font-size: 4vh;
+
+}
+#pic13{
+    position: relative;
+    bottom: 636vh;
+    left: 170vh;
+    width: 23vh;
+
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .custom-card {
+        margin: 10px 0;
+    }
+}
